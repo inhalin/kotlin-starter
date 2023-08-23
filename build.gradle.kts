@@ -32,7 +32,6 @@ dependencies {
     // kotlin - json 역직렬화시에 기본 생성자 생략 가능
     implementation("com.fasterxml.jackson.module:jackson-module-kotlin")
     implementation("org.jetbrains.kotlin:kotlin-reflect")
-    implementation("org.modelmapper:modelmapper:2.4.4")
 
     // mysql
     runtimeOnly("com.mysql:mysql-connector-j")
